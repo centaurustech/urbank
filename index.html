@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>URBank</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="js/min/scripts-min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<div id="content">
+			<a href="/" class="logo"><img src="img/logo-urbank.png" alt="Urbank" title="Urbank" /></a>
+			<nav id="main-navigation">
+				<ul>
+					<li><a href="/" alt="home" class="active">home</a></li>
+					<li><a href="#" alt="employee">employee</a></li>
+					<li><a href="#" alt="company">company</a></li>
+					<li><a href="#" alt="services">services</a></li>
+					<li><a href="#" alt="contact">contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="container">
+		<div id="main">
+			<div id="left-col">
+				<h1>Best Bank Ever!</h1>
+				<p>Pellentesque habitant morbi tristique senectus et netus et <a href="#">malesuada</a> fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris <a href="#">placerat</a> eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</p>
+				<h2>Reasons We're Awesome:</h2>
+				<ul>
+					<li>Lorem ipsum dolor sit amet.</li>
+					<li>Aliquam tincidunt mauris eu risus.</li>
+					<li>Lorem ipsum dolor sit amet.</li>
+					<li>Lorem ipsum dolor sit amet.</li>
+					<li>Vestibulum auctor dapibus neque.</li>
+				</ul>
+				<section class="callout">
+					<div class="callout-body">
+						<h2>Amazing Mobile Info</h2>
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+					</div>
+					<div class="callout-image">
+						<img src="img/phone.svg" alt="Amazing Mobile Info" title="Amazing Mobile Info" />
+					</div>
+				</section>
+				<section id="rates">
+					<h1><span class="thin">Rates</span> Check them out.</h1>
+					<div id="rates-table">
+						<div class="rates-table-row-header">
+							<div class="rates-table-col1">&nbsp;</div>
+							<div class="rates-table-col2"><span>Annual Percentage Yield</span></div>
+							<div class="rates-table-col3"><span>Est. Earnings for 1 Year<sup>*</sup></span></div>
+						</div>
+						<div id="rates-table-content"></div>
+						<div class="rates-table-row-header">
+							<div class="rates-table-col1">&nbsp;</div>
+							<div class="rates-table-col2">&nbsp;</div>
+							<div class="rates-table-col3"><span><sup>*</sup>Based on $50,000 deposit.</span></div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div id="right-col">
+				<section id="login">
+					<a href="#" class="login-open" data-modal="modal-login">Login</a>
+				</section>
+				<section id="news">
+					<ul>
+						<li><a href="#latest">News</a></li>
+						<li><a href="#archive">Archive</a></li>
+					</ul>
+					<div id="news-container">
+						<div id="latest">
+							<div class="news-post">
+								<h2><a href="#">Lorem ipsum dolor</a></h2>
+								<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis</p>
+							</div>
+							<div class="news-post">
+								<h2><a href="#">Lorem ipsum dolor</a></h2>
+								<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis</p>
+							</div>
+							<div class="news-post">
+								<h2><a href="#">Lorem ipsum dolor</a></h2>
+								<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis</p>
+							</div>
+						</div>
+						<div id="archive">
+							<h2><a href="#">Lorem ipsum dolor</a></h2>
+							<h2><a href="#">Lorem ipsum dolor</a></h2>
+							<h2><a href="#">Lorem ipsum dolor</a></h2>
+							<h2><a href="#">Lorem ipsum dolor</a></h2>
+							<h2><a href="#">Lorem ipsum dolor</a></h2>
+							<h2><a href="#">Lorem ipsum dolor</a></h2>
+							<h2><a href="#">Lorem ipsum dolor</a></h2>
+							<h2><a href="#">Lorem ipsum dolor</a></h2>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="cf"></div>
+	</div>
+	<footer>
+		<div id="content">
+			<p class="copyright">&copy; 2014 URBank</p>
+			<nav id="footer-navigation">
+				<ul>
+					<li><a href="/" alt="home">home</a></li>
+					<li><a href="#" alt="employee">employee</a></li>
+					<li><a href="#" alt="company">company</a></li>
+					<li><a href="#" alt="services">services</a></li>
+					<li><a href="#" alt="contact">contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+	<div id="modal-login" class="modal">
+		<a href="#" class="modal-close"><img src="img/modal-close.png" alt="Close" /></a>
+		<h1>Sign In To Your Account</h1>
+		<form action="" method="post">
+			<p class="cf"><label for="login-un">Username</label>
+			<input type="text" name="login-un" /></p>
+			<p class="cf"><label for="login-pw">Password</label>
+			<input type="password" name="login-pw" /></p>
+			<p class="cf"><input type="submit" name="submit" value="Login" /></p>
+		</form>
+	</div>
+</body>
+</html>
